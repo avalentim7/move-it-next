@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: auto;
+}
+
+.container input {
+    display: none;
+}
+
+.container label {
+    width: 100%;
+    display:flex;
+    justify-content: right;
+    align-items:flex-end;
+    cursor: pointer;
+    user-select: none;
+}

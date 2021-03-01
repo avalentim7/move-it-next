@@ -6,6 +6,7 @@ import CompletedChallenges from '../components/CompletedChallenges';
 import Countdown from '../components/Countdown';
 import ExperienceBar from "../components/ExperienceBar";
 import { Profile } from '../components/Profile';
+import ToggleSwitch from '../components/ToggleSwitch';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
 import { CountdownProvider } from '../contexts/CountdownContext';
 
@@ -28,6 +29,8 @@ export default function Home(props: HomeProps) {
         <Head>
           <title>Início | move.it</title>
         </Head>
+
+        <ToggleSwitch />
 
         <ExperienceBar />
 
