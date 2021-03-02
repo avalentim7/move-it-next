@@ -20,12 +20,13 @@ export default function ToggleSwitch() {
             offColor={'#d8d8d8'}
             onColor={'#333'}
             onHandleColor={'#222'}
-            checkedHandleIcon={<div className={'switch-icon'}><FiMoon color={'#33bbff'} /></div>}
+            checkedHandleIcon={<div className={'switch-icon'}><FiMoon color={'#fff'} /></div>}
             uncheckedHandleIcon={<div className={'switch-icon'}><FiSun color={'#33bbff'} /></div>}
             checkedIcon={<div></div>}
             uncheckedIcon={<div></div>}
             handleDiameter={30}
-            boxShadow={'0px 0px 2px 1px #33bbff'}
+            boxShadow={'0px 0px 60px 0.2px #ccc'}
+            activeBoxShadow={'0px 0px 60px 0.2px #ccc'}
             height={15}
             width={70}
             className={'toggle-switch-container'}
