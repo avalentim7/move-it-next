@@ -61,3 +61,16 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+.toggle-switch-container {
+    position: relative !important;
+    top: -2rem;
+    display: flex !important;
+}
+
+.switch-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

@@ -14,11 +14,11 @@ export const DarkModeContext = createContext({} as DarkModeContextData);
 export function DarkModeProvider({ children }: DarkModeProviderProps) {
     const [darkModeEnabled, setDarkModeEnabled] = useState(false);
 
-    const handleDarkModeEnabled = (e) => {
+    const handleDarkModeEnabled = () => {
         const $html = document.querySelector('html') 
         $html.classList.toggle('dark');
         
-        setDarkModeEnabled(e.target.checked);
+        setDarkModeEnabled(!darkModeEnabled);
     }
 
     return (
